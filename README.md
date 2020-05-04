@@ -25,8 +25,9 @@ This is a course designed by geeksforgeeks for Data Structures and Algorithms wh
 + Dynamic Programming
 + Backtracking
 + Graph (Advanced)
-+ Trie
++ Tree
 + Segment-Tree
 + Disjoint set
 
-All the problems solutions are provided here ,click on desired option to jump on that folder directly 
+All the problems solutions are provided here , click on desired option to jump on that folder directly 
+**leave a star** :star2:

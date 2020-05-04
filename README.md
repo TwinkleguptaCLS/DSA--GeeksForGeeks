@@ -5,7 +5,7 @@
 ### About this course:  
 This is a course designed by geeksforgeeks for Data Structures and Algorithms which covers below contents:  
 + Introduction
-+ Mathematics
++ [Mathematics](Mathematics)
 + Bit Magic
 + Recursion
 + Arrays
@@ -29,4 +29,4 @@ This is a course designed by geeksforgeeks for Data Structures and Algorithms wh
 + Segment-Tree
 + Disjoint set
 
-All the problems and exercises associated with each of the topics are solved here 
+All the problems solutions are provided here ,click on desired option to jump on that folder directly 

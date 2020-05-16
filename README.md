@@ -6,7 +6,7 @@
 This is a course designed by geeksforgeeks for Data Structures and Algorithms which covers below contents:  
 + Introduction
 + [Mathematics](Mathematics)
-+ Bit Magic
++ [Bit Magic](Bit Magic)
 + Recursion
 + [Arrays](Arrays)
 + Searching

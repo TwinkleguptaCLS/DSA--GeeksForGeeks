@@ -1,29 +1,38 @@
+void levelorder(Node * root,map<int,vector<pair<int,int> > >&m,int lvl,int hd)
+{
+    if(root==NULL) return;
+    m[lvl].push_back({hd,root->data});
+    levelorder(root->left,m,lvl+1,hd-1);
+    levelorder(root->right,m,lvl+1,hd+1);
+}
+
 void printSpiral(Node *root)
 {
-    queue<Node*>q;q.push(root);
-    int a=0;stack<Node*>s;
-    while(q.size())
+    map<int,vector<pair<int,int> > >  m;
+    int lvl=0;
+    int hd=0;
+    levelorder(root,m,lvl,hd);
+     map<int,vector<pair<int,int> > > :: iterator it;
+    
+     int temp=0;
+    for(it=m.begin();it!=m.end();it++)
     {
-        int t=q.size();a++;
-        while(t--)
+         //sort(((*it).second).begin(),((*it).second).end());
+        if(temp%2==0)
         {
-            Node *p=q.front();q.pop();
-            cout<<p->data<<" ";
-            if(a%2==1)
+            for(int i=(*it).second.size()-1;i>=0;i--)
             {
-             if(p->right) s.push(p->right);
-               if(p->left) s.push(p->left);
+                cout<<((*it).second)[i].second<<" ";
             }
-            else if(a%2==0)
-            {
-                if(p->left) s.push(p->left);
-                if(p->right) s.push(p->right);
-            }
-             
         }
-        while(s.size())
-               {
-                   q.push(s.top()); s.pop();
-               }
+        else
+        {
+             for(int i=0;i<(*it).second.size();i++)
+            {
+                cout<<((*it).second)[i].second<<" ";
+            }
+        }
+        temp++;
     }
+    
 }

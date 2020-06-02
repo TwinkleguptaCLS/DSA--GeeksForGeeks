@@ -17,7 +17,7 @@ This is a course designed by geeksforgeeks for Data Structures and Algorithms wh
 + LinkedList
 + Stack
 + Queue
-+ Tree
++ [Tree](Tree)
 + Binary Search Tree
 + Heap
 + Graph

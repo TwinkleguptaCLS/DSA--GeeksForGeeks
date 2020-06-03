@@ -13,7 +13,7 @@ This is a course designed by geeksforgeeks for Data Structures and Algorithms wh
 + Sorting
 + Matrix
 + Hashing
-+ Strings
++ [Strings](Strings)
 + LinkedList
 + Stack
 + Queue

@@ -18,7 +18,7 @@ This is a course designed by geeksforgeeks for Data Structures and Algorithms wh
 + Stack
 + Queue
 + [Tree](Tree)
-+ Binary Search Tree
++ [Binary Search Tree](Binary Search Tree)
 + Heap
 + Graph
 + Greedy 

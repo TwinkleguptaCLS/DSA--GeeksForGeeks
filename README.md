@@ -31,5 +31,5 @@ This is a course designed by geeksforgeeks for Data Structures and Algorithms wh
 
 All the problems solutions are provided here , click on desired option to jump on that folder directly 
 
-**leave a star** :star2:
+
  
